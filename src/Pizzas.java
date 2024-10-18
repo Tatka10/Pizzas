@@ -18,7 +18,8 @@ public class Pizzas {
         this.name = name;
     }
 
-    public Pizzas(Name name) {
+    public Pizzas(Name name, int size) {
         this.name = name;
+        this.size=size;
     }
 }
